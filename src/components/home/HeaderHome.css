@@ -1,0 +1,14 @@
+.headerText {
+    font-size: 5vh;
+    color: #837f7f;
+}
+.hContainer {
+    padding: 60px 100px 15px 100px;
+    text-align: center;
+}
+
+.hLogo {
+    height: 50vh;
+    margin-bottom: 5px;
+    
+}

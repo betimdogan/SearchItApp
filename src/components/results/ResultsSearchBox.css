@@ -1,0 +1,44 @@
+.rSearchbox {
+    padding: 20px 15px 20px 15px;
+    margin: 25px 150px 25px 40px;
+    width: 35vw;
+    height: 2.4vh;
+    border-radius: 1.5vw;
+    background: #e1e1e1;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+
+.rButton {
+    padding: 0.3vw;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    float: left;
+    background: #e1e1e1;
+    font-size: 4.5vh;
+}
+
+.rButton:hover {
+    background: white;
+    border-radius: 0.5vw;
+}
+
+.rtextArea {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    height: 6vh;
+    font-size: 3.5vh;
+    border: none;
+    width: 31vw;
+    background: #e1e1e1;
+    color: #837f7f;
+    align-self: center;
+}
+
+.rtextArea ::placeholder {
+    color: #837f7f;
+    opacity: 1;
+}

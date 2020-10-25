@@ -1,0 +1,48 @@
+.searchbox {
+    padding: 20px 15px 20px 15px;
+    margin: auto;
+    width: 42vw;
+    height: 2.4vh;
+    border-radius: 1.5vw;
+    background: #e1e1e1;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+}
+
+.sButton {
+    padding: 0.3vw;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    float: left;
+    background: #e1e1e1;
+    font-size: 1.97vw;
+
+}
+
+.sButton:hover {
+    background: white;
+    border-radius: 0.5vw;
+}
+
+.sForm {
+    width: 41vw;
+}
+
+.textArea {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    height: 5.7vh;
+    font-size: 3.5vh;
+    border: none;
+    width: 36.7vw;
+    background: #e1e1e1;
+    color: #837f7f;
+}
+
+::placeholder {
+    color: #837f7f;
+    opacity: 1;
+}

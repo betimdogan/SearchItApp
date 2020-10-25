@@ -1,0 +1,83 @@
+
+.resultsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rContainer {
+    padding: 20px 100px 15px 40px;
+    text-align: flex-start;
+    font-size: 3vh;
+    color: #837f7f;
+}
+
+.rLogo {
+    height: 20vh;
+    
+}
+
+.orderContainer { 
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orderHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oContainer {
+    padding: 20px 100px 20px 150px;
+    text-align: flex-start;
+    font-size: 3vh;
+    color: #837f7f;
+}
+
+.orderButton {
+    margin: 25px 150px 25px 40px;
+    height: 9vh;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 7.7vw;
+    align-items: center;
+    font-size: 3vh;
+    color: #837f7f;
+    padding: 3px;
+    border-radius: 10px;
+
+}
+
+.orderButton:hover {
+    background: #e1e1e1;
+    border-radius: 5px;
+}
+
+.orderButtonGray {
+    margin: 25px 150px 25px 40px;
+    height: 9vh;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 7.7vw;
+    align-items: center;
+    font-size: 3vh;
+    color: #837f7f;
+    padding: 3px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+
+}
+
+.orderButtonGray:hover {
+    background: white;
+    border-radius: 5px;
+}
+
+.oIcon {
+    font-size: 5.3vh;
+    padding-right: 6px;
+}

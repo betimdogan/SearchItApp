@@ -1,0 +1,8 @@
+.results {
+    height: 100vh;
+}
+.pagination {
+    position:absolute;                  
+    bottom:8px;                          
+    right:20px;
+}

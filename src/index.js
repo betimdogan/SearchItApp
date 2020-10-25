@@ -3,10 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import SearchContextProvider from './context/SearchContext';
+
+const AppConnector = () => {
+  return (
+    <SearchContextProvider>
+      <App />
+    </SearchContextProvider>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppConnector />
   </React.StrictMode>,
   document.getElementById('root')
 );

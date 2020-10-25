@@ -1,0 +1,23 @@
+
+.item-text {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: 0vw 15vw 1vw 15vw;
+    border-radius: 20px;
+    background: #e1e1e1;
+    padding: 15px 20px 15px 10px;
+    font-size: 14px;
+    color: #696565;
+
+}
+
+.itemContainer {
+    width: 48vw;
+}
+
+.description {
+    padding-left: 30px;
+}
